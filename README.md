@@ -13,8 +13,8 @@
 
 1. 下载此项目:
 
-git clone https://github.com/your-username/aab-installer.git
-
+git clone [https://github.com/your-username/aab-installer.git
+](https://github.com/1158536658/Aab_install_to_android.git)
 2. 安装所需的 Python 包：
 
 pip install PyQt5
