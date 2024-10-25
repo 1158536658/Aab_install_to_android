@@ -48,17 +48,11 @@ pip install pyqtwebengine(windows 安装不上可先安装这个库，再安装�
 
 5. 安装完成后，根据安装过程的结果，将显示 "完成！" 或 "错误：无法在设备上安装 APK"。
 
-- mac_install_aab_jks_keystore.py
-选择AAB文件
-选择签名密钥库（Keystore）文件
-提供KeyStore访问密码（storepass）和key访问密码（keypass）
-可以指定KeyStore中的密钥条目别名（alias）
-根据输入的信息自动创建APKs文件
-自动将生成的APKs文件安装到连接的Android设备
+## mac_install_aab_jks_keystore.py
+- 选择AAB文件
+- 选择签名密钥库（Keystore）文件
+- 提供KeyStore访问密码（storepass）和key访问密码（keypass）
+- 可以指定KeyStore中的密钥条目别名（alias）
+- 根据输入的信息自动创建APKs文件
+- 自动将生成的APKs文件安装到连接的Android设备
 
-- 使用说明
-"Select AAB file" 按钮，选择一个AAB文件
-"Select Keystore" 按钮，选择一个签名密钥库（Keystore）文件
-KeyStore访问密码（storepass）和key访问密码（keypass）
-KeyStore中用于签名应用的密钥条目别名（alias）
-点击 "Install APKs to devices" 按钮以开始生成APKs并将其安装到连接的Android设备上
